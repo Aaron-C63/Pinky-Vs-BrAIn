@@ -1,27 +1,20 @@
 {
   "main": {
-    "id": "f615ab334f18859b",
+    "id": "b51b7ad46f736be6",
     "type": "split",
     "children": [
       {
-        "id": "b141625de9b6b03d",
+        "id": "b4191dda7c14f9cb",
         "type": "tabs",
         "children": [
           {
-            "id": "68e51e80d3f48737",
+            "id": "dec4a3afe89c8f44",
             "type": "leaf",
             "state": {
-              "type": "canvas",
-              "state": {
-                "file": "Untitled.canvas",
-                "viewState": {
-                  "x": 658.2215985030944,
-                  "y": -150.62141608094458,
-                  "zoom": -0.9174275252465214
-                }
-              },
-              "icon": "lucide-layout-dashboard",
-              "title": "Untitled"
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
             }
           }
         ]
@@ -30,15 +23,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "590e48f54428855e",
+    "id": "8e10272c16c40e37",
     "type": "split",
     "children": [
       {
-        "id": "b5298f5e91d2cb2e",
+        "id": "256ad708d0c2a662",
         "type": "tabs",
         "children": [
           {
-            "id": "2781ed3b247b067f",
+            "id": "3823495c4f9b9dba",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -50,7 +43,7 @@
             }
           },
           {
-            "id": "374434c3524b55e3",
+            "id": "c30d056f9dd9519c",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -67,7 +60,7 @@
             }
           },
           {
-            "id": "90a2d4b2b2b933e7",
+            "id": "b48eca9208a0303e",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -83,20 +76,19 @@
     "width": 300
   },
   "right": {
-    "id": "0a19671d9a57a14d",
+    "id": "725dae64311eb037",
     "type": "split",
     "children": [
       {
-        "id": "278f20e7a902030b",
+        "id": "ef65e6cd1edb44ca",
         "type": "tabs",
         "children": [
           {
-            "id": "5c9df0fb7b23aadb",
+            "id": "4091a7c37a440b89",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Untitled.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,25 +98,24 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Untitled"
+              "title": "Backlinks"
             }
           },
           {
-            "id": "d4622fd5c3a95137",
+            "id": "38c7c090b5206e99",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Untitled.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Untitled"
+              "title": "Outgoing links"
             }
           },
           {
-            "id": "855c1ec557a4d0d2",
+            "id": "e216381867a7ecc4",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -137,15 +128,13 @@
             }
           },
           {
-            "id": "0af180043f1c23c4",
+            "id": "680184f753e61e6c",
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Untitled.canvas"
-              },
+              "state": {},
               "icon": "lucide-list",
-              "title": "Outline of Untitled"
+              "title": "Outline"
             }
           }
         ]
@@ -165,12 +154,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "68e51e80d3f48737",
+  "active": "dec4a3afe89c8f44",
   "lastOpenFiles": [
     "2025-01-19.md",
-    "Untitled.canvas",
-    "Untitled 1.canvas",
-    "Welcome.md",
-    "Untitled.md"
+    "Untitled.canvas"
   ]
 }

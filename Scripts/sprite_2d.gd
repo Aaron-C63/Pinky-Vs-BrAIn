@@ -11,7 +11,7 @@ func _process(delta):
 	if parent is PathFollow2D:
 		parent.set_progress(parent.get_progress() + speed * delta)
 
-func _on_area_2d_area_entered(area):
+func _on_area_2d_area_entered(_area):
 	speed = 0
 	print("Hello World")
 	waiting_for_enter = true

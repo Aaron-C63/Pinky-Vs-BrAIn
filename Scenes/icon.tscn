@@ -1,7 +1,14 @@
-[gd_scene load_steps=3 format=3 uid="uid://deafar8opmn3l"]
+[gd_scene load_steps=5 format=3 uid="uid://deafar8opmn3l"]
 
 [ext_resource type="Texture2D" uid="uid://ccclwtsiwebth" path="res://icon.svg" id="1_ho2sq"]
 [ext_resource type="Texture2D" uid="uid://gqy75i3gdflw" path="res://gjmm1.PNG" id="2_5rapw"]
+[ext_resource type="Script" path="res://Scripts/icon_9.gd" id="3_fge67"]
+
+[sub_resource type="Curve2D" id="Curve2D_obmvo"]
+_data = {
+"points": PackedVector2Array(0, 0, 0, 0, -229, -200, 0, 0, 0, 0, -74, 318, 0, 0, 0, 0, 225, -220, 0, 0, 0, 0, 604, 311, 0, 0, 0, 0, 565, -215, 0, 0, 0, 0, 788, 300, 0, 0, 0, 0, 886, -247, 0, 0, 0, 0, 938, 323, 0, 0, 0, 0, 1086, -240)
+}
+point_count = 9
 
 [node name="Icon" type="Sprite2D"]
 position = Vector2(151, 293)
@@ -9,10 +16,6 @@ texture = ExtResource("1_ho2sq")
 
 [node name="Icon" type="Sprite2D" parent="."]
 position = Vector2(256, 20)
-texture = ExtResource("1_ho2sq")
-
-[node name="Icon6" type="Sprite2D" parent="."]
-position = Vector2(430, -167)
 texture = ExtResource("1_ho2sq")
 
 [node name="Icon7" type="Sprite2D" parent="."]
@@ -43,3 +46,15 @@ texture = ExtResource("1_ho2sq")
 position = Vector2(-124, -178)
 scale = Vector2(0.304688, 1)
 texture = ExtResource("2_5rapw")
+
+[node name="Path2D" type="Path2D" parent="."]
+curve = SubResource("Curve2D_obmvo")
+
+[node name="PathFollow2D" type="PathFollow2D" parent="Path2D"]
+position = Vector2(-229, -200)
+rotation = 1.28005
+
+[node name="Icon6" type="Sprite2D" parent="Path2D/PathFollow2D"]
+position = Vector2(-0.958038, -0.286667)
+texture = ExtResource("1_ho2sq")
+script = ExtResource("3_fge67")

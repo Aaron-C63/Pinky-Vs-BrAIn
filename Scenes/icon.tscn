@@ -25,3 +25,8 @@ texture = ExtResource("1_ho2sq")
 [node name="Icon5" type="Sprite2D" parent="."]
 position = Vector2(511, 246)
 texture = ExtResource("1_ho2sq")
+
+[node name="Icon6" type="Sprite2D" parent="."]
+position = Vector2(-124, -178)
+scale = Vector2(0.304688, 1)
+texture = ExtResource("1_ho2sq")

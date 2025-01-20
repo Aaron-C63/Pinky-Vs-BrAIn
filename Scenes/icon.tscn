@@ -1,7 +1,8 @@
-[gd_scene load_steps=3 format=3 uid="uid://deafar8opmn3l"]
+[gd_scene load_steps=4 format=3 uid="uid://deafar8opmn3l"]
 
 [ext_resource type="Texture2D" uid="uid://ccclwtsiwebth" path="res://icon.svg" id="1_ho2sq"]
 [ext_resource type="Texture2D" uid="uid://gqy75i3gdflw" path="res://gjmm1.PNG" id="2_5rapw"]
+[ext_resource type="Texture2D" uid="uid://bhebpqfwbywc2" path="res://Screenshot (1).png" id="2_sqlh4"]
 
 [node name="Icon" type="Sprite2D"]
 position = Vector2(151, 293)
@@ -17,7 +18,7 @@ texture = ExtResource("1_ho2sq")
 
 [node name="Icon7" type="Sprite2D" parent="."]
 position = Vector2(747, -166)
-texture = ExtResource("1_ho2sq")
+texture = ExtResource("2_sqlh4")
 
 [node name="Icon8" type="Sprite2D" parent="."]
 position = Vector2(829, 136)

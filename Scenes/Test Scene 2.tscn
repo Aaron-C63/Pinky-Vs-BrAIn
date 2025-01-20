@@ -9,6 +9,31 @@ position = Vector2(175, 248)
 rotation = 3.12599
 texture = ExtResource("1_bngky")
 
+[node name="Icon7" type="Sprite2D" parent="."]
+position = Vector2(166, 89)
+rotation = 3.12599
+texture = ExtResource("1_bngky")
+
+[node name="Icon8" type="Sprite2D" parent="."]
+position = Vector2(362, 473)
+rotation = 3.12599
+texture = ExtResource("1_bngky")
+
+[node name="Icon9" type="Sprite2D" parent="."]
+position = Vector2(351, 100)
+rotation = 3.12599
+texture = ExtResource("1_bngky")
+
+[node name="Icon10" type="Sprite2D" parent="."]
+position = Vector2(1063, 522)
+rotation = 3.12599
+texture = ExtResource("1_bngky")
+
+[node name="Icon11" type="Sprite2D" parent="."]
+position = Vector2(1048, 88)
+rotation = 3.12599
+texture = ExtResource("1_bngky")
+
 [node name="Icon2" type="Sprite2D" parent="."]
 position = Vector2(743.767, 240.132)
 rotation = 3.10764

@@ -1,0 +1,18 @@
+[gd_scene load_steps=3 format=3 uid="uid://dsemxudotcsba"]
+
+[ext_resource type="Script" path="res://Scripts/platform.gd" id="1_pg0i8"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_j33gt"]
+size = Vector2(60, 60)
+
+[node name="platform" type="StaticBody2D" groups=["dropable"]]
+script = ExtResource("1_pg0i8")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("RectangleShape2D_j33gt")
+
+[node name="ColorRect" type="ColorRect" parent="."]
+offset_left = -30.0
+offset_top = -30.0
+offset_right = 30.0
+offset_bottom = 30.0

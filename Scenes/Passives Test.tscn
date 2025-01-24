@@ -1,0 +1,33 @@
+[gd_scene load_steps=3 format=3 uid="uid://cowj56ueh01ef"]
+
+[ext_resource type="PackedScene" uid="uid://d3sah3xs6c1j7" path="res://Scenes/dragableObject.tscn" id="2_0faxq"]
+[ext_resource type="PackedScene" uid="uid://dsemxudotcsba" path="res://Scenes/platform.tscn" id="3_00kkv"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="ActiveEffects" type="RichTextLabel" parent="."]
+offset_left = 171.0
+offset_top = 494.0
+offset_right = 768.0
+offset_bottom = 620.0
+
+[node name="platform" parent="." instance=ExtResource("3_00kkv")]
+position = Vector2(44, 42)
+
+[node name="platform2" parent="." instance=ExtResource("3_00kkv")]
+position = Vector2(169, 47)
+
+[node name="platform3" parent="." instance=ExtResource("3_00kkv")]
+position = Vector2(344, 45)
+
+[node name="object" parent="." instance=ExtResource("2_0faxq")]
+position = Vector2(895, 492)
+
+[node name="object2" parent="." instance=ExtResource("2_0faxq")]
+position = Vector2(338, 454)
+
+[node name="object3" parent="." instance=ExtResource("2_0faxq")]
+position = Vector2(496, 435)
+
+[node name="platform4" parent="." instance=ExtResource("3_00kkv")]
+position = Vector2(546, 53)

@@ -1,0 +1,47 @@
+[gd_scene load_steps=7 format=3 uid="uid://dg7ekjc0bb1lk"]
+
+[ext_resource type="PackedScene" uid="uid://bm8ue18do164g" path="res://Scenes/InfoPanelPlayer.tscn" id="1_nqugk"]
+[ext_resource type="PackedScene" uid="uid://d28cj0sdiabm2" path="res://Scenes/Perks/HealthPerk1.tscn" id="2_ipks7"]
+[ext_resource type="PackedScene" uid="uid://ciuqeblk47o01" path="res://Scenes/Perks/health_perk_2.tscn" id="3_mr55x"]
+[ext_resource type="PackedScene" uid="uid://du5eoi8nacgxh" path="res://Scenes/Perks/health_perk_3.tscn" id="4_iko7m"]
+[ext_resource type="PackedScene" uid="uid://bxkgona0va4ef" path="res://Scenes/passives_display.tscn" id="5_ddtxi"]
+[ext_resource type="Script" path="res://Scenes/label.gd" id="6_khgib"]
+
+[node name="Testing Scene" type="Node2D"]
+
+[node name="Player Info Panel" parent="." instance=ExtResource("1_nqugk")]
+offset_left = 28.0
+offset_top = 31.0
+offset_right = 302.0
+offset_bottom = 172.0
+
+[node name="Button" parent="." instance=ExtResource("2_ipks7")]
+offset_left = 380.0
+offset_top = 17.0
+offset_right = 630.0
+offset_bottom = 67.0
+
+[node name="HealthPerk2" parent="." instance=ExtResource("3_mr55x")]
+offset_left = 373.0
+offset_top = 85.0
+offset_right = 638.0
+offset_bottom = 160.0
+
+[node name="HealthPerk3" parent="." instance=ExtResource("4_iko7m")]
+offset_left = 382.0
+offset_top = 178.0
+offset_right = 633.0
+offset_bottom = 220.0
+
+[node name="Label" type="Label" parent="."]
+offset_left = 8.0
+offset_top = 559.0
+offset_right = 259.0
+offset_bottom = 640.0
+script = ExtResource("6_khgib")
+
+[node name="Passives Display" parent="." instance=ExtResource("5_ddtxi")]
+offset_left = 770.0
+offset_top = 4.0
+offset_right = 1152.0
+offset_bottom = 346.0

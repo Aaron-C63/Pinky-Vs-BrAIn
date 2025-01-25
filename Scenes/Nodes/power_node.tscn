@@ -1,0 +1,11 @@
+[gd_scene load_steps=2 format=3 uid="uid://ckvc3gij4ht24"]
+
+[ext_resource type="Texture2D" uid="uid://cl22a31188vye" path="res://Assets/166.png" id="1_u0edh"]
+
+[node name="power_node" type="Node2D"]
+
+[node name="TextureRect" type="TextureRect" parent="."]
+offset_right = 40.0
+offset_bottom = 40.0
+texture = ExtResource("1_u0edh")
+expand_mode = 1

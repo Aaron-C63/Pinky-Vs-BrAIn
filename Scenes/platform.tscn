@@ -3,7 +3,7 @@
 [ext_resource type="Script" path="res://Scripts/platform.gd" id="1_pg0i8"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_j33gt"]
-size = Vector2(60, 60)
+size = Vector2(56, 54)
 
 [node name="platform" type="StaticBody2D" groups=["dropable"]]
 script = ExtResource("1_pg0i8")

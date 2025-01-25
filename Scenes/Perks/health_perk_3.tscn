@@ -1,0 +1,11 @@
+[gd_scene load_steps=2 format=3 uid="uid://du5eoi8nacgxh"]
+
+[ext_resource type="Script" path="res://Scripts/health_perk_3.gd" id="1_g0vhf"]
+
+[node name="HealthPerk3" type="Button"]
+offset_right = 251.0
+offset_bottom = 42.0
+text = "On Death Heal to 50% Health"
+script = ExtResource("1_g0vhf")
+
+[connection signal="pressed" from="." to="." method="_on_pressed"]

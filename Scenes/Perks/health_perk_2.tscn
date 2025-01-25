@@ -1,0 +1,11 @@
+[gd_scene load_steps=2 format=3 uid="uid://ciuqeblk47o01"]
+
+[ext_resource type="Script" path="res://Scripts/health_perk_2.gd" id="1_oeiry"]
+
+[node name="HealthPerk2" type="Button"]
+offset_right = 109.0
+offset_bottom = 75.0
+text = "For every 200 Hp get +20% Power"
+script = ExtResource("1_oeiry")
+
+[connection signal="pressed" from="." to="." method="_on_pressed"]

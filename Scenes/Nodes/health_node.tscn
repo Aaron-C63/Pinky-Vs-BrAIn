@@ -1,0 +1,11 @@
+[gd_scene load_steps=2 format=3 uid="uid://cts4oedo5tj0u"]
+
+[ext_resource type="Texture2D" uid="uid://b12b3wkk5b82x" path="res://Assets/173.png" id="1_alrm6"]
+
+[node name="Health_node" type="Node2D"]
+
+[node name="TextureRect" type="TextureRect" parent="."]
+offset_right = 40.0
+offset_bottom = 40.0
+texture = ExtResource("1_alrm6")
+expand_mode = 1

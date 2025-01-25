@@ -1,22 +1,21 @@
 [gd_scene load_steps=4 format=3 uid="uid://d3sah3xs6c1j7"]
 
-[ext_resource type="Script" path="res://dragableObject.gd" id="1_nhn8f"]
+[ext_resource type="Script" path="res://Scripts/dragableObject.gd" id="1_nhn8f"]
 [ext_resource type="Texture2D" uid="uid://bmr4vikn44enl" path="res://Assets/168.png" id="2_6p8sa"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_7bccj"]
-size = Vector2(73, 72)
+size = Vector2(40, 40)
 
 [node name="object" type="Node2D"]
 script = ExtResource("1_nhn8f")
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
-scale = Vector2(0.5, 0.5)
+scale = Vector2(0.3, 0.3)
 texture = ExtResource("2_6p8sa")
 
 [node name="Area2D" type="Area2D" parent="."]
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
-position = Vector2(0.5, 0)
 shape = SubResource("RectangleShape2D_7bccj")
 
 [connection signal="body_entered" from="Area2D" to="." method="_on_area_2d_body_entered"]

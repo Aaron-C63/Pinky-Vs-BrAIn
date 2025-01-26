@@ -1,7 +1,8 @@
-[gd_scene load_steps=6 format=3 uid="uid://bcar5w7dwbc1p"]
+[gd_scene load_steps=7 format=3 uid="uid://bcar5w7dwbc1p"]
 
 [ext_resource type="Texture2D" uid="uid://ccclwtsiwebth" path="res://icon.svg" id="1_gy5by"]
 [ext_resource type="Script" path="res://Scripts/sprite_2d.gd" id="2_ss73i"]
+[ext_resource type="Texture2D" uid="uid://c7njw8022a0qa" path="res://Assets/map_tiles/Stage_One__Two (1).png" id="3_mohht"]
 
 [sub_resource type="Curve2D" id="Curve2D_v4tjt"]
 _data = {
@@ -73,6 +74,16 @@ texture = ExtResource("1_gy5by")
 [node name="Icon2" type="Sprite2D" parent="."]
 position = Vector2(91, 74)
 texture = ExtResource("1_gy5by")
+
+[node name="StageFiveSix" type="Sprite2D" parent="."]
+z_index = -1
+position = Vector2(3482.97, 323.75)
+scale = Vector2(0.600463, 0.600463)
+
+[node name="StageOneTwo(1)" type="Sprite2D" parent="."]
+position = Vector2(2210, 328)
+scale = Vector2(0.381481, 0.381481)
+texture = ExtResource("3_mohht")
 
 [connection signal="area_entered" from="Area2D" to="Path2D/PathFollow2D/Sprite2D" method="_on_area_2d_area_entered"]
 [connection signal="area_entered" from="Area2D4" to="Path2D/PathFollow2D/Sprite2D" method="_on_area_2d_area_entered"]
